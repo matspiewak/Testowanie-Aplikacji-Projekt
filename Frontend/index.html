@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<body ng-app="mainPage">
+    <script src="js/mainPage.js"></script>
+    <script src="js/booksController.js"></script>
+    <script src="js/bookReviewsController.js"></script>
+    <div id="header">
+
+    </div>
+
+    <div id="left">
+
+    </div>
+    <div id="main" ng-controller="booksController">
+        <div id="cardContainer">
+            <div class="bookCard" ng-repeat="x in booksData" ng-hide="isBookSelected">
+                <div class="bookCardTitle"><b>{{x.title}}</b></div>
+                <div class="bookCardText"><b>{{x.author}}</b></div>
+                <div class="redButton" ng-click="getBook(x)" id="openTitle">{{toggle}}</div>
+            </div>
+            <div class="reviewsAdd" ng-hide="isBookSelected">
+                <form class="simple-form">
+                    <p>Title</p><input ng-model="title" id="Title"/>
+
+
+                    <p>Author</p><input ng-model="author" id="Author"/>
+                    <p>Publisher</p><input ng-model="publisher"  id="Publisher"/>
+                    <p>Release Date</p><input ng-model="releaseDate" id="Date"/>
+                    <p>Pages</p><input ng-model="pages" id="Pages"/>
+                    <input type="submit" value="submit" ng-click="sendBook(title,author,publisher,releaseDate,pages)" id="SubmitBook">
+
+                </form>
+            </div>
+        </div>
+        <div id="cardContainerOpened">
+            <div class="bookCardOpened" ng-show="isBookSelected" ng-controller="bookReviewsController" ng-init="init()">
+                <div class="bookCardTitle"><b>{{selectedBook.title}}</b></div>
+                <div class="bookCardText"><b>{{selectedBook.author}}</b></div>
+
+                <div class="reviewsDiv" ng-repeat="x in bookReviewsData |filter:{title: selectedBook.title} ">
+                    {{x.review}}
+                    </br>
+                    <p>Rating: </p> {{x.rating}}
+
+                </div>
+                <div class="reviewsAdd">
+                    <form class="simple-form">
+                        <p>Review</p><input ng-model="review" id="Review"/>
+
+                        </br>
+                        <p>Rating</p><input ng-model="rating" id="Rating"/>
+
+                        <input type="submit" value="submit" ng-click="sendReview(review,rating)" id="SubmitReview">
+
+                    </form>
+                </div>
+
+
+
+                <div class="redButtonOpened" ng-click="setBooks(x)">{{toggle}}</div>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="right">
+
+    </div>
+    <div id="footer">
+
+    </div>
+
+
+
+
+</body>
+
+</html>

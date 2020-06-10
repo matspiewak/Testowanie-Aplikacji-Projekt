@@ -1,0 +1,15 @@
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\SeleniumTests.exe.config
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\SeleniumTests.exe
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\SeleniumTests.pdb
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\nunit.framework.dll
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\WebDriver.dll
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\WebDriver.Support.dll
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\nunit.framework.pdb
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\nunit.framework.xml
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\WebDriver.xml
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\bin\Debug\WebDriver.Support.xml
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\obj\Debug\SeleniumTests.csprojAssemblyReference.cache
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\obj\Debug\SeleniumTests.csproj.CoreCompileInputs.cache
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\obj\Debug\SeleniumTests.csproj.CopyComplete
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\obj\Debug\SeleniumTests.exe
+F:\Studia\R2S2\Testowanie - projekt\Rozproszone\SeleniumTests\obj\Debug\SeleniumTests.pdb
