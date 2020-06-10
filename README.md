@@ -96,3 +96,5 @@ Additionally in order to execute Selenium tests you have to start main project a
             Console.WriteLine("Otwarto szczegóły");
         }
 ---
+## Author
+Tests made by Mateusz Śpiewak
